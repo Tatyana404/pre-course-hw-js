@@ -3,7 +3,7 @@ let passport = {
   surname: "Petrov",
 };
 
-const newPassport = JSON.parse(JSON.stringify(passport));
+const newPassport = { ...passport };
 
 newPassport.name = "Ivan";
 
