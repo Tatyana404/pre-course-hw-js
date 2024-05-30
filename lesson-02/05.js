@@ -7,5 +7,5 @@ const newPassport = JSON.parse(JSON.stringify(passport));
 
 newPassport.name = "Ivan";
 
-console.log(passport);
-console.log(newPassport);
+console.log(passport.name);
+console.log(newPassport.name);
