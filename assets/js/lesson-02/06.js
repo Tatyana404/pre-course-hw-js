@@ -1,4 +1,4 @@
-let passportWithAddress = {
+const passportWithAddress = {
   name: "Petr",
   surname: "Petrov",
   address: {

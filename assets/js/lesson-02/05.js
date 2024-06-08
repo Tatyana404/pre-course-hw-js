@@ -1,4 +1,4 @@
-let passport = {
+const passport = {
   name: "Petr",
   surname: "Petrov",
 };
